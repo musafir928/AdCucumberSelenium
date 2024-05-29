@@ -22,6 +22,8 @@ public abstract class  BasePage {
     @CacheLookup
     protected WebElement loaderMask;
 
+    // some comment
+
     @FindBy(css = "h1[class='oro-subtitle']")
     public WebElement pageSubTitle;
 
